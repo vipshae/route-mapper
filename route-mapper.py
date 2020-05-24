@@ -178,4 +178,4 @@ def shortest_path(M,start,goal):
     RouteObj.init_g_val_dict()
     return RouteObj.get_best_route()
 
-print(shortest_path(M, 1, 0))
+print(shortest_path(M, 1, 7))
